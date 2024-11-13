@@ -8,7 +8,7 @@ const UserProfilePage  = ()=>{
     if(isGetLoading){
         return <span>Loading ...</span>
     }
-    if(!currentUser){
+    if(!currentUser){ 
         return <span>Unabel to load user profile</span>
     }
     return(
